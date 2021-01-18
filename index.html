@@ -3,23 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Clan News</title>
+    <link rel="stylesheet" href="style.css">
+    <title>CodeClan News</title>
 </head>
 <body>
     <header>
-        <h1 id="logo">Code Clan News</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="/home">Home</a>
-                 </li>
-                <li>
-                    <a href="/blog">Blog</a>
-                </li>
-                <li>
-                    <a href="/contact">Contact</a>
-                </li>
-            </ul>
+        <h1>CodeClan News</h1>
+        <aside>
+            <nav>
+                <a href="/home">Home</a>
+                <a href="/blog">Blog</a>
+                <a href="/contact">Contact</a>
+            </nav>
+        </aside>
     </header>
 
     <main>
@@ -119,9 +115,9 @@
             <footer>
                 <h3>Comments</h3>
                 <section>
-                    <form>
+                    <form id="comment-form">
                         <p>
-                        <textarea name="comments" rows="5" cols="width=device-width, initial-scale=1.0"></textarea>
+                        <textarea name="comments" rows=5 cols=120 ></textarea>
                         </p>
                         <p>
                         <button type="button">Submit</button>
@@ -131,14 +127,10 @@
                     <hr>
                     <article>
                         <p>
-                            <img src="userimage.png" alt="thumbnail of user image">
+                            <img id="avatar" src="userimage.png" alt="thumbnail of user image">
                         </p>
-                        <p>
-                            <h3>User Name</h3>
-                        </p>
-                        <p>
-                            <h4>Posted:23/03/2020</h4>
-                        </p>
+                        <h3>User Name</h3>
+                        <h4>Posted:23/03/2020</h4>
                         <p>
                            This was interesting. Thanks. 
                         </p>
@@ -146,14 +138,10 @@
                     <hr>
                     <article>
                         <p>
-                            <img src="userimage.png" alt="thumbnail of user image">
+                            <img id="avatar" src="userimage.png" alt="thumbnail of user image">
                         </p>
-                        <p>
-                            <h3>User Name</h3>
-                        </p>
-                        <p>
-                            <h4>Posted:25/03/2020</h4>
-                        </p>
+                        <h3>User Name</h3>
+                        <h4>Posted:25/03/2020</h4>
                         <p>
                            This was interesting. Thanks. 
                         </p>
@@ -161,14 +149,10 @@
                     <hr>
                     <article>
                         <p>
-                            <img src="userimage.png" alt="thumbnail of user image">
+                            <img id="avatar" src="userimage.png" alt="thumbnail of user image">
                         </p>
-                        <p>
-                            <h3>User Name</h3>
-                        </p>
-                        <p>
-                            <h4>Posted:26/03/2020</h4>
-                        </p>
+                        <h3>User Name</h3>
+                        <h4>Posted:26/03/2020</h4>
                         <p>
                            Thanks. I hate it. 
                         </p>

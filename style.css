@@ -1,0 +1,64 @@
+body{
+    margin: 3;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body > header {
+    background-color: dodgerblue;
+    color: white;
+}
+
+body > header > h1{
+    margin: 5;
+}
+
+body > header > aside {
+    background-color: dodgerblue;
+    color: white;
+    text-align: right;
+}
+
+nav > a {
+    background-color: dodgerblue;
+    color: white;
+}
+
+body > main {
+    margin: 50px;
+    /* inset: 10px 15px 10px; */
+    /* width: 70%; */
+}
+
+body > footer {
+    background-color: dodgerblue;
+    padding: 16px;
+    color: white;
+    text-align: center;
+}
+
+input {
+    box-shadow: 3px 3px #8888;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px
+}
+
+#avatar {
+    border-radius: 50%;
+}
+
+/* main > footer > button{ */
+    /* align: right; 
+}*/
+
+/* #comment-button{
+    text-align: right;
+} */
+
+#comment-form {
+    text-align: right;
+}
